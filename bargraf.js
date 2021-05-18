@@ -17,7 +17,7 @@ function preload() {
 }
 // her er imagesearchen https://www.google.com/search?tbs=sbi:AMhZZivyG_17npB7rrUM829UG1JV07I0epI9njkAOgtl9hMQCkBFCLej1M_14KV6X7kalAeAwYXYDzy5iQDmOUh9VdxBGmIJhTgs44IhkfJbz_16f3DxxY24gXc7PhUN5FXG06-ua2fAe7Lyc9n2WC69V1jgDfBjDlXQxECwaw58v6WeqzLFDFCCbmxBJpDnqW7riyoV59NuSnISEcGx0gOP5dCUsxAwFH_15VpWW6VTj_1kF4N1Q2g7g2rIFy19I1FgWy85xaqSVhiTcZhixoCQ_11Ul9sVoQUNjpSithif3CvnE1vJYt-vSAGoxXzp9EQXWJDUg5DdVmAH7oq1kZr5FWenYURSO-QJxUYw&btnG=Search%20by%20image&hl=en
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight+50);
   background(100, 100, 100);
   fill(230);
   frameRate(1);
@@ -42,13 +42,11 @@ function draw() {
   text(">100.000",3*(windowWidth/5)+20, windowHeight-785)
   text("<100.000",4*(windowWidth/5)+20, windowHeight-785)
 
-  text("Klik for at begynde forfra...",windowWidth/5-150,90)
-  text("Lande og smittetal:",windowWidth/5-138,windowHeight-279)
+  text("Lande og smittetal:",windowWidth/5-138,windowHeight-310)
 
 
   fill(204, 0, 0, 230)
   ellipse((windowWidth/5), windowHeight-790,25,25)
-
 
   fill(255,105,104,190)
   ellipse((2*windowWidth/5), windowHeight-790,25,25)
