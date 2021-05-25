@@ -42,7 +42,7 @@ function draw() {
   text(">100.000",3*(windowWidth/5)+20, windowHeight-785)
   text("<100.000",4*(windowWidth/5)+20, windowHeight-785)
 
-  text("Lande og smittetal:",windowWidth/5-138,windowHeight-310)
+  text("Lande og smittetal:",windowWidth/5-138,windowHeight-210)
 
 
   fill(204, 0, 0, 230)
